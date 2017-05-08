@@ -26,7 +26,9 @@ public class SubFileTest {
 	}
 
 	public static void main(String[] args) {
-		String path = "c:\\";
+		//String path = "c:\\";
+		String path = args[0];
+
 		System.out.println("### " + path + " result");
 		// TODO Auto-generated method stub
 		getFileList(path);
