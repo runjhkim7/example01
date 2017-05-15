@@ -17,6 +17,7 @@ public class PolymorphismDemo1_2 {
 		// TODO Auto-generated method stub
 		AA obj = new B1();
 		AA obj2 = new B2();
+		
 		System.out.println(obj.x());
 		System.out.println(obj2.x());
 
