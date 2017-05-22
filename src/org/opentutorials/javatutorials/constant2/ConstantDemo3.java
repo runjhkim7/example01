@@ -1,14 +1,14 @@
 package org.opentutorials.javatutorials.constant2;
-class Fruit{
-    public static final Fruit APPLE  = new Fruit();
-    public static final Fruit PEACH  = new Fruit();
-    public static final Fruit BANANA = new Fruit();
+class Fruit3{
+    public static final Fruit3 APPLE  = new Fruit3();
+    public static final Fruit3 PEACH  = new Fruit3();
+    public static final Fruit3 BANANA = new Fruit3();
 }
 
-class Company{
-    public static final Company GOOGLE = new Company();
-    public static final Company APPLE = new Company();
-    public static final Company ORACLE = new Company();
+class Company3{
+    public static final Company3 GOOGLE = new Company3();
+    public static final Company3 APPLE = new Company3();
+    public static final Company3 ORACLE = new Company3();
 }
 
 
@@ -16,9 +16,10 @@ public class ConstantDemo3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-	       if(Fruit.APPLE == Company.APPLE){
-	            System.out.println("과일 애플과 회사 애플이 같다.");
-	        }
+//		if (Fruit3.APPLE.equals(Company3.APPLE)) {
+		if (Fruit3.APPLE.toString() == Company3.APPLE.toString()) {
+			System.out.println("과일 애플과 회사 애플이 같다.");
+		}
 
 	}
 
